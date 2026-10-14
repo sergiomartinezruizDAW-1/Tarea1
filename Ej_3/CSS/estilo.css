@@ -1,0 +1,37 @@
+.tabla1 {
+    border: 2px solid blue;       /* borde exterior de la tabla */
+    border-collapse: separate;    /* bordes separados, no fusionados */
+    border-spacing: 10px;         /* hueco entre celdas */
+    font-family: "Times New Roman", serif;
+}
+.tabla2 {
+    border: 1px solid orange;
+    border-collapse: collapse;   /* fusiona los bordes en una sola línea */
+    border-spacing: 0;           /* sin huecos entre celdas */
+    width: 600px;
+    text-align: center;
+}
+caption {
+    font-style: italic;           /* título en cursiva */
+    margin-bottom: 5px;
+}
+
+th {
+    border: none;                 /* la cabecera sin borde */
+    font-weight: bold;
+    padding: 5px;
+}
+
+.borde1 {
+    border: 2px solid blue;       /* celdas con borde azul */
+    padding: 15px 20px;
+}
+
+.borde2 {
+    border: 2px solid orange;
+    padding: 25px;
+}
+
+.par {
+    background-color: #49cf49;    /* color de fondo para filas pares */
+}

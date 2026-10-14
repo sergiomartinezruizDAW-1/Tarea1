@@ -1,0 +1,17 @@
+.text {
+        position: relative;
+	    background-color:#b90489;
+    text-align: left;
+    font-size: 30px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #0d9a8c;
+    border: 2px solid blue;
+}
+.linea1{
+    text-align: left;
+    background-color: #0d9a8c;
+    border: 2px solid blue;
+}
